@@ -1,0 +1,305 @@
+/*general rules*/
+
+body,html{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    
+    font-size:100%;
+    background: url('images/background.jpe');
+    background-attachment:fixed;
+}
+
+/* Headers */
+
+#header{
+    height:100%;
+}
+
+#wrapper{
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.12)),url('images/headerbackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1em solid red;
+   
+}
+
+#content{
+    height:100%;
+    width:100%;
+    display:table;
+}
+
+#content-box{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#header img{
+    width:15em;
+    display: inline;
+}
+
+
+#header p{
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 1em 0;
+}
+
+#header p:hover{
+    color: white;
+}
+
+#header #content a{
+    background-color: white;
+    font-size:3em;
+    padding: 0.15em 0.5em;
+    color:blue;
+    text-decoration: none;
+    opacity: 0.6;
+    border: 0.15em solid black;
+}
+
+#header #content a:hover{
+    background-color: red;
+    opacity: 1;
+}
+
+#content-box p{
+    color:orange;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color:transparent!important;
+    border: 0;
+    padding:2em;
+}
+
+
+.navbar button{
+    background-color:red;
+}
+
+.navbar button:hover{
+    background-color:black!important;
+}
+
+.navbar-brand{
+    color:#ffff00!important;
+    font-size: 4em;
+}
+
+.navbar a:not(.navbar-brand){
+    color:#ffba00!important;
+    font-size: 2em;
+    font-weight:bolder;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+
+.navbar a:hover{
+    color:white!important;
+}
+
+
+
+/* Photos */
+
+#photos{
+    padding: 3em 2em;
+}
+
+.col-md-4{
+    position:relative;
+}
+
+#photos img{
+    width: 100%;
+    height: 20em;
+    margin: 1em 0;
+    border-radius: 1em;
+    transition: transform 2s ease-in-out;
+}
+
+#photos img:hover{
+   opacity: 0.8;
+    transform: scale(1.15);
+}
+
+#photos h2{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-top: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    color:red;
+    display: none;
+    font-size: 4em;
+}
+
+#photos .col-md-4:hover h2{
+    display:block;
+}-
+
+
+/*Menu*/
+.menu{
+    height:100%;
+    width:100%;
+    
+    
+    
+}.menu{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.13),rgba(0, 0, 0, 0.47)),url('images/backgroundrestaraunt.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#sushi-menu h2{
+    color:white;
+    font-size:3em;
+    text-align: center;
+    
+    margin-top: 0.7em;
+}
+
+#sushi-menu h3{
+    color:white;
+    font-size:2em;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0.8em;
+    margin-top:1em;
+    
+}
+
+#sushi-menu h4{
+    color:white;
+    font-size:1.6em;
+    text-align: center;
+    margin-bottom: 0.2m;
+    margin-top:0.8em;
+}
+
+#sushi-menu p:not(.price){
+    color:white;
+    font-weight:200;
+    font-size:1.3em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top:-0.6em;
+   
+   
+}
+
+#sushi-menu p:last-of-type{
+margin-bottom: 1em;
+   
+   
+}
+
+
+.price{
+    color:white;
+    font-weight: 200;
+    font-size:1.3em;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+
+
+/* FORM */
+
+#form{
+    padding: 2em 1em;
+}
+
+#form h1{
+    color:red;
+}
+
+
+.form{
+    background-color:black;
+    opacity: 0.6;
+    padding: 2em 1em;
+    height:48em;
+}
+
+.form h3{
+    color:red;
+}
+
+.form p{
+    color: white;
+    font-size: 1.2em;
+    
+}
+
+
+.checkbox p{
+    display:inline;
+    margin-left:1em;
+    font-size:1.3em;
+}
+
+form button{
+    background-color: red;
+    font-size: 2em;
+    margin-top:1em;
+}
+
+.iframe{
+    padding: 1em 2em;
+    height: 48em;
+    background-color: white;
+    
+    
+}
+
+.iframe iframe{
+    height:30em;
+}
+
+/*footer*/
+
+footer .fa{
+    color: blue;
+    
+}
+
+ .list-inline li{
+    display:inline;
+    font-size: 1.3em;
+     padding: 0.5em 0.5em;
+}
+
+footer h3{
+    color: red;
+    padding: 0.4em 2em;
+    font-size: 1.35em;
+}
+
+
+/*featherlight*/
+
+.featherlight .featherlight-image{
+    height: 600px;
+    width:600px;
+    
+}
